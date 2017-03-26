@@ -1,0 +1,5 @@
+numpy
+pathos
+pysax
+sklearn
+scipy
