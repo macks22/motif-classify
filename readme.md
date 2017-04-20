@@ -36,7 +36,9 @@ The custom Python code is contained in 4 modules:
                        into the Python `Grammar` object. This code contains the interface
                        for the `sklearn.BaseEstimator`, called `MotifFinder`.
     grid_search.py -- Using the `MotifFinder` for feature selection and a `sklearn.RandomForest`
-                      for classification, conduct a grid search over the SAX parameters. The data is output to a csv file and the accuracy of the best estimator is output to stdout.
+                      for classification, conduct a grid search over the SAX
+                      parameters. The data is output to a csv file and the
+                      accuracy of the best estimator is output to stdout.
 
 Both `motif_finder.py` and `grid_search.py` share a common base CLI.
 You can see this by running:
